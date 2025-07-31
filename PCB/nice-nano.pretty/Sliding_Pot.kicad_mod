@@ -1,0 +1,215 @@
+(footprint "Sliding_Pot"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "SlidingPot"
+		(at 1.66 0.05 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "36c2f014-5b11-4f6d-ba92-037e3687a904")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Sliding_Pot"
+		(at 0 0 270)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f1c3ee85-18fa-412e-9737-938b6af1e125")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5b30230-42f3-4d85-be57-858e34fe6d91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c6612d4-e8ef-49be-beb4-7af6cfa795e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd allow_soldermask_bridges)
+	(fp_rect
+		(start -4.5 -37.5)
+		(end 4.5 37.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e711130b-417d-4af4-bc65-47d48f12b2eb")
+	)
+	(fp_line
+		(start -1 -1.75)
+		(end -1.5 -1.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "b1187955-89d4-4718-b3d6-7f26496100e1")
+	)
+	(fp_rect
+		(start -5.5 -38.5)
+		(end 5.5 38.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "35495add-5b2c-4005-aa81-45c02ef7f42a")
+	)
+	(fp_text user "1"
+		(at 1 -34 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "dc44eb35-2593-4eee-82fc-91d8d1730061")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "3"
+		(at 1 35 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e9e852ad-c578-4cdb-8499-eb0b01ad0eb9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "2"
+		(at -2.5 -34 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f67c251d-59b4-4f6b-a016-80a4343d70b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.5 0 270)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4a63a373-cbc4-4f51-9a0d-31ed496defb9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -4.25 -32.6)
+		(size 1.9 1.9)
+		(drill 1.9)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "828aa1e8-0c49-4d56-b508-09f7f6010da6")
+	)
+	(pad "" np_thru_hole circle
+		(at -4.25 32.6)
+		(size 1.9 1.9)
+		(drill 1.9)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "7765c93f-8458-4c4a-a4ed-23735f23513f")
+	)
+	(pad "" np_thru_hole circle
+		(at 4.25 -31.4)
+		(size 1.9 1.9)
+		(drill 1.9)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "1ef01dd5-daf3-4084-8c16-518cc5835b63")
+	)
+	(pad "" np_thru_hole circle
+		(at 4.25 31.4)
+		(size 1.9 1.9)
+		(drill 1.9)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "e6d56b57-2a2a-4169-babc-bba0a03cc570")
+	)
+	(pad "1" thru_hole circle
+		(at 1.75 -36.75)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ec0a175a-9b96-4c48-b1b8-ea7d64952af4")
+	)
+	(pad "2" thru_hole circle
+		(at -1.75 -36.75)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b544a876-980e-495d-97b9-bf1859633c4b")
+	)
+	(pad "3" thru_hole circle
+		(at 1.75 36.75)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c6980129-5a6f-4e68-94a7-1f5021b3d50c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/CAD/Sliding_Pot.step"
+		(offset
+			(xyz 0 0 -2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+	(model "${KIPRJMOD}/nice-nano.pretty/Pot.step"
+		(offset
+			(xyz 0 0 -4.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)
