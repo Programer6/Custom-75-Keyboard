@@ -1,6 +1,6 @@
 # Wireless 75% Keyboard
 
-This is the documentation for  designed completely from scratch. I wanted a compact wireless keyboard but didn't want to sacrifice the function row, so I settled on a 70% layout. It's the perfect balance of size and functionality for my setup.
+This is the documentation for  designed completely from scratch.
 
 For the firmware, I chose ZMK. Since this is a wireless build using the `nice!nano`, ZMK's powerful features and Bluetooth support were a perfect fit, even if it meant a steeper learning curve than like KMK which I have used before.
 
