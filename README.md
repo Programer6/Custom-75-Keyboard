@@ -1,5 +1,4 @@
-# Custom 75% Keyboard
-# Wireless 70% Keyboard
+# Wireless 75% Keyboard
 
 This is the documentation for  designed completely from scratch. I wanted a compact wireless keyboard but didn't want to sacrifice the function row, so I settled on a 70% layout. It's the perfect balance of size and functionality for my setup.
 
