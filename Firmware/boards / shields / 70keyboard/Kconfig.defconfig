@@ -1,0 +1,6 @@
+if SHIELD_70KEYBOARD
+
+confid ZMK_KEYBOARD_NAME
+    default "70keyboard"
+
+enddif
